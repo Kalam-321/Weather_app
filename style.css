@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body
+{
+    background: #222;
+}
+
+.card
+{
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    width: 90%;
+    max-width: 470px;  
+    color: #fff;
+    margin: 3rem auto 0;
+    border-radius: 1.2rem;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    
+}
+
+.search-box
+{
+    width: 100%;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box input
+{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 0.7rem 1.5rem;
+    height: 80%;
+    border-radius: 2rem;
+    flex:1;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.search-box button
+{
+    background: #ebfffc;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 3.4rem;
+    height: 3.4rem;
+}
+
+.search-box button img
+{
+    width: 1rem;
+}
+
+.weather-icon
+{
+    margin-top: 1.5rem;
+    width: 170px;
+}
+
+.weather-report h1
+{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather-report h2
+{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.3rem;
+    margin-top: 3rem;
+
+}
+
+.col
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img
+{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind
+{
+    font-size: 1rem;
+    margin-top: -6px;
+}
+
+.weather-report
+{
+    display: none;
+}
+.error
+{
+    text-align: left;
+    display: none;
+    margin-top: 5px;
+}
